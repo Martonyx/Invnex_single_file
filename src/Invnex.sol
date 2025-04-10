@@ -1,5 +1,7 @@
 //SPDX-License-Identifier: MIT
 
+pragma solidity 0.8.20;
+
 /**  
  * @title Invnex TokenFactory  
  * @author Martin Chukwuneme (0x_martonyx)  
@@ -16,8 +18,6 @@
  *  
  * The contract is designed for flexibility, security, and ease of integration with other DeFi protocols.  
  */  
-
-pragma solidity 0.8.20;
 
 import {ERC20Token} from "./ERC20Token.sol";
 import {Utils} from "../src/utils/InvnexUtils.sol";
