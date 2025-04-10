@@ -1,5 +1,22 @@
 //SPDX-License-Identifier: MIT
 
+/**  
+ * @title Invnex TokenFactory  
+ * @author Martin Chukwuneme (0x_martonyx)  
+ * @notice A factory contract for creating, managing, and interacting with custom ERC20 tokens.  
+ * @dev This contract enables the deployment of new ERC20 tokens, facilitates ICOs (Initial Coin Offerings),  
+ * and provides functions for buying and claiming tokens. It serves as a centralized platform for token issuance  
+ * and distribution.  
+ *  
+ * Key Features:  
+ * - Deploys new ERC20 tokens with customizable parameters.  
+ * - Manages token sales (ICOs) with configurable pricing, supply, and vesting.  
+ * - Allows users to purchase tokens during an ICO and claim them after the sale concludes.  
+ * - Provides administrative controls for token listing and ICO management.  
+ *  
+ * The contract is designed for flexibility, security, and ease of integration with other DeFi protocols.  
+ */  
+
 pragma solidity 0.8.20;
 
 import {ERC20Token} from "./ERC20Token.sol";
